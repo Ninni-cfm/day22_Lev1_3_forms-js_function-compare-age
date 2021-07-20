@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Altersdifferenz</legend>
+            <div>
+                <label for="year1">Alter 1</label>
+                <input type="number" name="year1" id="year1" min="1900" max=2021>
+            </div>
+            <div>
+                <label for="year2">Alter 2</label>
+                <input type="number" name="year2" id="year2" min="1900" max=2021>
+            </div>
+            <p><input type="button" value="Berechne!" onclick="getDifference()"></p>
+            <h2>Die Differenz ist:</h2>
+            <h2 id="result">&nbsp;</h2>
+        </fieldset>
+    </form>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
